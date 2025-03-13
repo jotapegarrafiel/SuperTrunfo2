@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(){
+int main() {
     // Apresentação do jogo
     printf("Bem-vindo ao Super Trunfo!\n");
     printf("O jogo de cartas que testa seus conhecimentos sobre as cidades do Brasil.\n");
@@ -207,7 +207,9 @@ int main(){
             break;
         }
         case 2:
-            printf("Regras do jogo\n");
+            printf("Regras do jogo:\n");
+            printf("Escolha duas cartas e compare os atributos delas.\n");
+            printf("O jogador que tiver o maior valor no atributo escolhido vence a rodada.\n");
             break;
         case 3:
             printf("Obrigado por jogar!\n");
